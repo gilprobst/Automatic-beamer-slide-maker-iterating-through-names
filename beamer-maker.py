@@ -1,7 +1,7 @@
 import os
 import re
-l=os.listdir("F:/Documents/Youtube/Art/2024-11-15_Foundations")
-filenames_for_beamer=os.listdir("F:/Documents/Youtube/Art/2024-11-15_Foundations")
+l=os.listdir("...") #Folder with jpgs with the names we want
+filenames_for_beamer=os.listdir("...")
 w = open("beamer_slides.txt", "w")
 names=[]
 
